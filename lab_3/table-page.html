@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>
+			Информация о гречке
+		</title>
+	</head>
+
+	<body>
+		<p>
+			<a href="Main-page.html"> Главная страница </a>
+			<br>
+			<a href="table-page.html"> Таблица с информацией о продуктах </a>
+		</p>
+		
+		<hr>
+		
+		
+		<p>
+			<details>
+				<summary> График </summary>
+				
+				<form>
+				
+					<table>
+						<tr>
+							<td>График по оси OX</td>
+							<td>Результат</td>
+						<tr>
+						<tr>
+							<td>
+								<label>Тип:
+									<select>
+										<option value="0">Молочные продукты
+										<option value="1">Хлебобулочные изделия
+										<option value="2">Крупы
+										<option value="3">Овощи
+										<option value="4">Фрукты
+										<option value="5">Мясо
+									</select> 
+						
+								</label>
+							</td>
+							<td>
+								<input type = "checkbox" name = "kkal">Ккал
+							</td>
+						</tr>
+						<tr>
+							<td>
+								
+							</td>
+							<td>
+								<input type = "checkbox" name = "protine">Белки
+							</td>
+						</tr>
+						<tr>
+							<td>
+								
+							</td>
+							<td>
+								<input type = "checkbox" name = "fats">Жиры
+							</td>
+						</tr>
+						<tr>
+							<td>
+								
+							</td>
+							<td>
+								<input type = "checkbox" name = "carbs">Углеводы
+							</td>
+						</tr>
+					</table>
+					<input type = "button" value="Построить">
+				</form>
+				
+			</details>
+			
+			<details>
+				<summary> Фильтр </summary>
+				
+				<form>
+					<p>
+						<label>Название:<input type="text">
+						</label>
+						<br>
+						<label>Тип:<input type="text">
+						</label>
+						<br>
+						<label>Ккал:<input type="text"> до:<input type="text">
+						</label>
+						<br>
+						<label>Белки:<input type="text"> до:<input type="text">
+						</label>
+						<br>
+						<label>Жиры:<input type="text"> до:<input type="text">
+						</label>
+						<br>
+						<label>Углеводы от:<input type="text"> до:<input type="text">
+						</label>
+						<br>
+						<input type = "button" value="Найти">
+					</p>
+				</form>
+				
+			</details>
+			
+			<details>
+				<summary> Сортировка </summary>
+				
+				<form>
+					<p>
+						<label>Сортировка первого уровня
+							<select>
+								<option value="0">Название
+								<option value="1">Тип
+								<option value="0">Белки
+								<option value="1">Жиры
+								<option value="0">Углеводы
+								<option value="1">Ккал
+							</select> 
+						по убыванию?<input type="checkbox">
+						</label>
+						
+						<br>
+						
+						<label>Сортировка второго уровня
+							<select>
+								<option value="0">Название
+								<option value="1">Тип
+								<option value="0">Белки
+								<option value="1">Жиры
+								<option value="0">Углеводы
+								<option value="1">Ккал
+							</select> 
+						по убыванию?<input type="checkbox">
+						</label>
+						
+						<br>
+						
+						<label>Сортировка третьего уровня
+							<select>
+								<option value="0">Название
+								<option value="1">Тип
+								<option value="0">Белки
+								<option value="1">Жиры
+								<option value="0">Углеводы
+								<option value="1">Ккал
+							</select> 
+						по убыванию?<input type="checkbox">
+						</label>
+						
+						<br>
+						
+						
+						<br>
+						<input type = "button" value="Сортировать">
+						
+					</p>
+				</form>
+				
+			</details>
+		</p>
+		<p>
+			Информация в таблице расчитана на 100г. продукта
+		</p>
+		<p>
+			<table align = "center" border="1" cellspacing="0">
+				<tr>
+					<td>
+					Продукт
+					</td>
+					
+					<td>
+					Тип
+					</td>
+					
+					<td>
+					Белки г.
+					</td>
+					
+					<td>
+					Жиры г.
+					</td>
+					
+					<td>
+					Углеводы г.
+					</td>
+					
+					<td>
+					Каллорийность
+					</td>
+					
+				</tr>
+				<tr>
+				<td>Брынза (сыр из коровьего молока)</td>
+				<td>Молочные продукты</td>
+				<td>17.9</td>
+				<td>20.1</td>
+				<td>0.0</td>
+				<td>260</td>
+				</tr>
+				<tr>
+				<td>Йогурт натуральный. 2% жир.</td>
+				<td>Молочные продукты</td>
+				<td>4.3</td>
+				<td>2</td>
+				<td>6.2</td>
+				<td>60</td>
+				</tr>
+				<tr>
+				<td>Кефир 3.2% жирный</td>
+				<td>Молочные продукты</td>
+				<td>2.8</td>
+				<td>3.2</td>
+				<td>4.1</td>
+				<td>56</td>
+				</tr>
+				<tr>
+				<td>Кефир 1% нежирный</td>
+				<td>Молочные продукты</td>
+				<td>2.8</td>
+				<td>1</td>
+				<td>4</td>
+				<td>40</td>
+				</tr>
+				<tr>
+				<td>Молоко 3.2%</td>
+				<td>Молочные продукты</td>
+				<td>2.9</td>
+				<td>3.2</td>
+				<td>4.7</td>
+				<td>59</td>
+				</tr>
+				<tr>
+				<td>Молоко 2.5%</td>
+				<td>Молочные продукты</td>
+				<td>2.8</td>
+				<td>2.5</td>
+				<td>4.7</td>
+				<td>52</td>
+				</tr>
+				<tr>
+				<td>Молоко сгущенное без сахара</td>
+				<td>Молочные продукты</td>
+				<td>6.6</td>
+				<td>7.5</td>
+				<td>9.4</td>
+				<td>131</td>
+				</tr>
+				<tr>
+				<td>Молоко сгущённое с сахаром</td>
+				<td>Молочные продукты</td>
+				<td>7.2</td>
+				<td>8.5</td>
+				<td>56</td>
+				<td>320</td>
+				</tr>
+				<tr>
+				<td>Молоко сухое цельное</td>
+				<td>Молочные продукты</td>
+				<td>26</td>
+				<td>25</td>
+				<td>37.5</td>
+				<td>476</td>
+				</tr>
+				
+				<tr>
+				<td>Ряженка 2.5%</td>
+				<td>Молочные продукты</td>
+				<td>2.9</td>
+				<td>2.5</td>
+				<td>4.2</td>
+				<td>54</td>
+				</tr>
+				<tr>
+				<td>Сливки 10% (нежирные)</td>
+				<td>Молочные продукты</td>
+				<td>3</td>
+				<td>10</td>
+				<td>4</td>
+				<td>118</td>
+				</tr>
+				<tr>
+				<td>Сливки 20% (средней жирности)</td>
+				<td>Молочные продукты</td>
+				<td>2.8</td>
+				<td>20</td>
+				<td>3.7</td>
+				<td>205</td>
+				</tr>
+				<tr>
+				<td>Сметана 10% (нежирная)</td>
+				<td>Молочные продукты</td>
+				<td>3</td>
+				<td>10</td>
+				<td>2.9</td>
+				<td>115</td>
+				</tr>
+				<tr>
+				<td>Сметана 20% (средней жирности)</td>
+				<td>Молочные продукты</td>
+				<td>2.8</td>
+				<td>20</td>
+				<td>3.2</td>
+				<td>206</td>
+				</tr>
+				<tr>
+				<td>Сыр голландский</td>
+				<td>Молочные продукты</td>
+				<td>26</td>
+				<td>26.8</td>
+				<td>0.0</td>
+				<td>352</td>
+				</tr>
+				<tr>
+				<td>Сыр плавленый</td>
+				<td>Молочные продукты</td>
+				<td>16.8</td>
+				<td>11.2</td>
+				<td>23.8</td>
+				<td>257</td>
+				</tr>
+				
+				<tr>
+				<td>Сыр российский</td>
+				<td>Молочные продукты</td>
+				<td>24.1</td>
+				<td>29.5</td>
+				<td>0.3</td>
+				<td>363</td>
+				</tr>
+				<tr>
+				<td>Сыр швейцарский</td>
+				<td>Молочные продукты</td>
+				<td>24.9</td>
+				<td>31.8</td>
+				<td>0.0</td>
+				<td>396</td>
+				</tr>
+				<tr>
+				<td>Творожная масса</td>
+				<td>Молочные продукты</td>
+				<td>7.1</td>
+				<td>23</td>
+				<td>27.5</td>
+				<td>341</td>
+				</tr>
+				<tr>
+				<td>Творог обезжиренный</td>
+				<td>Молочные продукты</td>
+				<td>16.5</td>
+				<td>0.0</td>
+				<td>1.3</td>
+				<td>71</td>
+				</tr>
+				<tr>
+				
+				<tr>
+				<td>Творог 9% полужирный</td>
+				<td>Молочные продукты</td>
+				<td>16.7</td>
+				<td>9</td>
+				<td>2</td>
+				<td>159</td>
+				</tr>
+				
+				<tr>
+				<td>Баранки</td>
+				<td>Хлебобулочные изделия</td>
+				<td>16</td>
+				<td>1</td>
+				<td>70</td>
+				<td>366</td>
+				</tr>
+				<tr>
+				<td>Мука пшеничная 1-го сорта</td>
+				<td>Хлебобулочные изделия</td>
+				<td>10.6</td>
+				<td>1.3</td>
+				<td>67.6</td>
+				<td>331</td>
+				</tr>
+				<tr>
+				<td>Мука пшеничная 2-го сорта</td>
+				<td>Хлебобулочные изделия</td>
+				<td>11.7</td>
+				<td>1.8</td>
+				<td>63.7</td>
+				<td>324</td>
+				</tr>
+				<tr>
+				<td>Мука пшеничная высш. сорт</td>
+				<td>Хлебобулочные изделия</td>
+				<td>10.3</td>
+				<td>1.1</td>
+				<td>68.9</td>
+				<td>334</td>
+				</tr>
+				<tr>
+				<td>Мука ржаная сеяная</td>
+				<td>Хлебобулочные изделия</td>
+				<td>6.9</td>
+				<td>1.4</td>
+				<td>67.3</td>
+				<td>304</td>
+				</tr>
+				<tr>
+				<td>Сухари к чаю</td>
+				<td>Хлебобулочные изделия</td>
+				<td>10</td>
+				<td>2.3</td>
+				<td>73.8</td>
+				<td>397</td>
+				</tr>
+				<tr>
+				<td>Сушки маковые</td>
+				<td>Хлебобулочные изделия</td>
+				<td>11.3</td>
+				<td>4.4</td>
+				<td>70.5</td>
+				<td>372</td>
+				</tr>
+				<tr>
+				<td>Хлеб пшеничный</td>
+				<td>Хлебобулочные изделия</td>
+				<td>8.1</td>
+				<td>1</td>
+				<td>48.8</td>
+				<td>242</td>
+				</tr>
+				<tr>
+				<td>Хлеб ржаной</td>
+				<td>Хлебобулочные изделия</td>
+				<td>13</td>
+				<td>3</td>
+				<td>40</td>
+				<td>250</td>
+				</tr>
+				<tr>
+				<td>Батон нарезной</td>
+				<td>Хлебобулочные изделия</td>
+				<td>7.5</td>
+				<td>2.9</td>
+				<td>50.9</td>
+				<td>264</td>
+				</tr>
+				
+				<tr>
+				<td>Геркулес</td>
+				<td>Крупы</td>
+				<td>12.5</td>
+				<td>6.2</td>
+				<td>61</td>
+				<td>352</td>
+				</tr>
+				<tr>
+				<td>Гречневая крупа (продел)</td>
+				<td>Крупы</td>
+				<td>9.5</td>
+				<td>2.3</td>
+				<td>65.9</td>
+				<td>306</td>
+				</tr>
+				<tr>
+				<td>Гречневая крупа ядрица (гречка)</td>
+				<td>Крупы</td>
+				<td>12.6</td>
+				<td>3.3</td>
+				<td>62.1</td>
+				<td>313</td>
+				</tr>
+				<tr>
+				<td>Кукурузная крупа</td>
+				<td>Крупы</td>
+				<td>8.3</td>
+				<td>1.2</td>
+				<td>75</td>
+				<td>337</td>
+				</tr>
+				<tr>
+				<td>Манная крупа</td>
+				<td>Крупы</td>
+				<td>10.3</td>
+				<td>1</td>
+				<td>67.4</td>
+				<td>328</td>
+				</tr>
+				<tr>
+				<td>Овсяная крупа</td>
+				<td>Крупы</td>
+				<td>12.3</td>
+				<td>6.1</td>
+				<td>59.5</td>
+				<td>342</td>
+				</tr>
+				<tr>
+				<td>Перловая крупа</td>
+				<td>Крупы</td>
+				<td>9.3</td>
+				<td>1.1</td>
+				<td>73.7</td>
+				<td>320</td>
+				</tr>
+				<tr>
+				<td>Пшеничная крупа</td>
+				<td>Крупы</td>
+				<td>11.5</td>
+				<td>1.3</td>
+				<td>62</td>
+				<td>316</td>
+				</tr>
+				<tr>
+				<td>Пшенная крупа</td>
+				<td>Крупы</td>
+				<td>11.5</td>
+				<td>3.3</td>
+				<td>69.3</td>
+				<td>348</td>
+				</tr>
+				<tr>
+				<td>Рис белый</td>
+				<td>Крупы</td>
+				<td>6.7</td>
+				<td>0.7</td>
+				<td>78.9</td>
+				<td>344</td>
+				</tr>
+				<tr>
+				<td>Толокно</td>
+				<td>Крупы</td>
+				<td>12.5</td>
+				<td>6</td>
+				<td>64.9</td>
+				<td>363</td>
+				</tr>
+				<tr>
+				<td>Ячневая</td>
+				<td>Крупы</td>
+				<td>10.4</td>
+				<td>1.3</td>
+				<td>66.3</td>
+				<td>324</td>
+				</tr>
+				
+				<tr>
+				<td>Баклажан</td>
+				<td>Овощи</td>
+				<td>1.2</td>
+				<td>0.1</td>
+				<td>4.5</td>
+				<td>24</td>
+				</tr>
+				<tr>
+				<td>Брюква</td>
+				<td>Овощи</td>
+				<td>1.2</td>
+				<td>0.1</td>
+				<td>7.7</td>
+				<td>37</td>
+				</tr>
+				<tr>
+				<td>Горошек зеленый</td>
+				<td>Овощи</td>
+				<td>5</td>
+				<td>0.2</td>
+				<td>13.8</td>
+				<td>73</td>
+				</tr>
+				<tr>
+				<td>Зеленая фасоль</td>
+				<td>Овощи</td>
+				<td>4</td>
+				<td>0.0</td>
+				<td>4.3</td>
+				<td>32</td>
+				</tr>
+				<tr>
+				<td>Кабачки</td>
+				<td>Овощи</td>
+				<td>0.6</td>
+				<td>0.3</td>
+				<td>4.6</td>
+				<td>24</td>
+				</tr>
+				<tr>
+				<td>Капуста белокочанная</td>
+				<td>Овощи</td>
+				<td>1.8</td>
+				<td>0.1</td>
+				<td>4.7</td>
+				<td>27</td>
+				</tr>
+				<tr>
+				<td>Капуста краснокочанная</td>
+				<td>Овощи</td>
+				<td>1.8</td>
+				<td>0.0</td>
+				<td>7.6</td>
+				<td>24</td>
+				</tr>
+				<tr>
+				<td>Капуста цветная</td>
+				<td>Овощи</td>
+				<td>2.5</td>
+				<td>0.3</td>
+				<td>5.4</td>
+				<td>30</td>
+				</tr>
+				<tr>
+				<td>Картофель</td>
+				<td>Овощи</td>
+				<td>2</td>
+				<td>0.4</td>
+				<td>16.1</td>
+				<td>76</td>
+				</tr>
+				<tr>
+				<td>Лук зеленый (перо)</td>
+				<td>Овощи</td>
+				<td>1.3</td>
+				<td>0.0</td>
+				<td>4.6</td>
+				<td>19</td>
+				</tr>
+				<tr>
+				<td>Лук порей</td>
+				<td>Овощи</td>
+				<td>2</td>
+				<td>0.0</td>
+				<td>8.2</td>
+				<td>33</td>
+				</tr>
+				<tr>
+				<td>Лук репчатый</td>
+				<td>Овощи</td>
+				<td>1.4</td>
+				<td>0.0</td>
+				<td>10.4</td>
+				<td>47</td>
+				</tr>
+				<tr>
+				<td>Морковь</td>
+				<td>Овощи</td>
+				<td>1.3</td>
+				<td>0.1</td>
+				<td>6.9</td>
+				<td>32</td>
+				</tr>
+				<tr>
+				<td>Огурцы грунтовые</td>
+				<td>Овощи</td>
+				<td>0.8</td>
+				<td>0.1</td>
+				<td>2.8</td>
+				<td>15</td>
+				</tr>
+				<tr>
+				<td>Огурцы парниковые</td>
+				<td>Овощи</td>
+				<td>0.7</td>
+				<td>0.0</td>
+				<td>1.8</td>
+				<td>10</td>
+				</tr>
+				<tr>
+				<td>Перец жёлтый сладкий</td>
+				<td>Овощи</td>
+				<td>1.3</td>
+				<td>0.0</td>
+				<td>5.3</td>
+				<td>27</td>
+				</tr>
+				<tr>
+				<td>Перец зеленый сладкий</td>
+				<td>Овощи</td>
+				<td>1.3</td>
+				<td>0.0</td>
+				<td>6.9</td>
+				<td>33</td>
+				</tr>
+				<tr>
+				<td>Перец красный сладкий</td>
+				<td>Овощи</td>
+				<td>1.3</td>
+				<td>0.0</td>
+				<td>5.3</td>
+				<td>27</td>
+				</tr>
+				<tr>
+				<td>Петрушка (зелень)</td>
+				<td>Овощи</td>
+				<td>3.7</td>
+				<td>0.0</td>
+				<td>8.1</td>
+				<td>45</td>
+				</tr>
+				<tr>
+				<td>Петрушка (корень)</td>
+				<td>Овощи</td>
+				<td>1.5</td>
+				<td>0.0</td>
+				<td>11</td>
+				<td>47</td>
+				</tr>
+				
+				<tr>
+				<td>Абрикосы</td>
+				<td>Фрукты</td>
+				<td>0.9</td>
+				<td>0.0</td>
+				<td>9</td>
+				<td>44</td>
+				</tr>
+				<tr>
+				<td>Айва</td>
+				<td>Фрукты</td>
+				<td>0.6</td>
+				<td>0.0</td>
+				<td>9.8</td>
+				<td>40</td>
+				</tr>
+				<tr>
+				<td>Алыча</td>
+				<td>Фрукты</td>
+				<td>0.2</td>
+				<td>0.0</td>
+				<td>6.9</td>
+				<td>27</td>
+				</tr>
+				<tr>
+				<td>Ананас</td>
+				<td>Фрукты</td>
+				<td>0.4</td>
+				<td>0.0</td>
+				<td>10.6</td>
+				<td>49</td>
+				</tr>
+				<tr>
+				<td>Бананы</td>
+				<td>Фрукты</td>
+				<td>1.5</td>
+				<td>0.0</td>
+				<td>21.8</td>
+				<td>95</td>
+				</tr>
+				<tr>
+				<td>Вишня</td>
+				<td>Фрукты</td>
+				<td>0.8</td>
+				<td>0.0</td>
+				<td>11.3</td>
+				<td>49</td>
+				</tr>
+				<tr>
+				<td>Гранат</td>
+				<td>Фрукты</td>
+				<td>0.9</td>
+				<td>0.0</td>
+				<td>11.8</td>
+				<td>52</td>
+				</tr>
+				<tr>
+				<td>Груша</td>
+				<td>Фрукты</td>
+				<td>0.4</td>
+				<td>0.0</td>
+				<td>10.7</td>
+				<td>42</td>
+				</tr>
+				<tr>
+				<td>Инжир</td>
+				<td>Фрукты</td>
+				<td>0.7</td>
+				<td>0.0</td>
+				<td>13.9</td>
+				<td>56</td>
+				</tr>
+				<tr>
+				<td>Персики</td>
+				<td>Фрукты</td>
+				<td>0.9</td>
+				<td>0.0</td>
+				<td>10.4</td>
+				<td>44</td>
+				</tr>
+				<tr>
+				<td>Слива садовая</td>
+				<td>Фрукты</td>
+				<td>0.8</td>
+				<td>0.0</td>
+				<td>9.9</td>
+				<td>43</td>
+				</tr>
+				
+				<tr>
+				<td>Черешня</td>
+				<td>Фрукты</td>
+				<td>1.1</td>
+				<td>0.0</td>
+				<td>12.3</td>
+				<td>52</td>
+				</tr>
+				<tr>
+				<td>Яблоки</td>
+				<td>Фрукты</td>
+				<td>0.4</td>
+				<td>0.0</td>
+				<td>11.3</td>
+				<td>46</td>
+				</tr>
+				<tr>
+				<td>Апельсин</td>
+				<td>Фрукты</td>
+				<td>0.9</td>
+				<td>0.0</td>
+				<td>8.4</td>
+				<td>38</td>
+				</tr>
+				<tr>
+				<td>Грейпфрут</td>
+				<td>Фрукты</td>
+				<td>0.9</td>
+				<td>0.0</td>
+				<td>7.3</td>
+				<td>35</td>
+				</tr>
+				<tr>
+				<td>Лимон</td>
+				<td>Фрукты</td>
+				<td>0.9</td>
+				<td>0.0</td>
+				<td>3.6</td>
+				<td>31</td>
+				</tr>
+				<tr>
+				<td>Мандарин</td>
+				<td>Фрукты</td>
+				<td>0.8</td>
+				<td>0.0</td>
+				<td>8.6</td>
+				<td>38</td>
+				</tr>
+				<tr>
+				<td>Виноград</td>
+				<td>Фрукты</td>
+				<td>0.4</td>
+				<td>0.0</td>
+				<td>17.5</td>
+				<td>69</td>
+				</tr>
+				<tr>
+				<td>Ежевика</td>
+				<td>Фрукты</td>
+				<td>2</td>
+				<td>0.0</td>
+				<td>5.3</td>
+				<td>33</td>
+				</tr>
+				<tr>
+				<td>Земляника</td>
+				<td>Фрукты</td>
+				<td>1.8</td>
+				<td>0.0</td>
+				<td>8.1</td>
+				<td>41</td>
+				</tr>
+				<tr>
+				<td>Клюква</td>
+				<td>Фрукты</td>
+				<td>0.5</td>
+				<td>0.0</td>
+				<td>4.8</td>
+				<td>28</td>
+				</tr>
+				<tr>
+				<td>Крыжовник</td>
+				<td>Фрукты</td>
+				<td>0.7</td>
+				<td>0.0</td>
+				<td>9.9</td>
+				<td>44</td>
+				</tr>
+				<tr>
+				<td>Малина</td>
+				<td>Фрукты</td>
+				<td>0.8</td>
+				<td>0.0</td>
+				<td>9</td>
+				<td>41</td>
+				</tr>
+				<tr>
+				<td>Смородина белая</td>
+				<td>Фрукты</td>
+				<td>0.3</td>
+				<td>0.0</td>
+				<td>8.7</td>
+				<td>39</td>
+				</tr>
+				<tr>
+				<td>Смородина черная</td>
+				<td>Фрукты</td>
+				<td>1.0</td>
+				<td>0.0</td>
+				<td>8.0</td>
+				<td>40</td>
+				</tr>
+				
+				<tr>
+				<td>Баранина</td>
+				<td>Мясо</td>
+				<td>16.3</td>
+				<td>15.3</td>
+				<td>0.0</td>
+				<td>203</td>
+				</tr>
+				<tr>
+				<td>Говядина</td>
+				<td>Мясо</td>
+				<td>18.9</td>
+				<td>12.4</td>
+				<td>0.0</td>
+				<td>187</td>
+				</tr>
+				<tr>
+				<td>Конина</td>
+				<td>Мясо</td>
+				<td>20.2</td>
+				<td>7</td>
+				<td>0.0</td>
+				<td>143</td>
+				</tr>
+				<tr>
+				<td>Кролик</td>
+				<td>Мясо</td>
+				<td>20.7</td>
+				<td>12.9</td>
+				<td>0.0</td>
+				<td>199</td>
+				</tr>
+				<tr>
+				<td>Свинина нежирная</td>
+				<td>Мясо</td>
+				<td>16.4</td>
+				<td>27.8</td>
+				<td>0.0</td>
+				<td>316</td>
+				</tr>
+				<tr>
+				<td>Свинина жирная</td>
+				<td>Мясо</td>
+				<td>11.4</td>
+				<td>49.3</td>
+				<td>0.0</td>
+				<td>489</td>
+				</tr>
+				<tr>
+				<td>Телятина</td>
+				<td>Мясо</td>
+				<td>19.7</td>
+				<td>1.2</td>
+				<td>0.0</td>
+				<td>90</td>
+				</tr>
+				<tr>
+				<td>Говяжья Печень</td>
+				<td>Мясо</td>
+				<td>17.4</td>
+				<td>3.1</td>
+				<td>0.0</td>
+				<td>98</td>
+				</tr>
+				<tr>
+				<td>Говяжьи Почки</td>
+				<td>Мясо</td>
+				<td>12.5</td>
+				<td>1.8</td>
+				<td>0.0</td>
+				<td>66</td>
+				</tr>
+				<tr>
+				<td>Говяжье Вымя</td>
+				<td>Мясо</td>
+				<td>12.3</td>
+				<td>13.7</td>
+				<td>0.0</td>
+				<td>173</td>
+				</tr>
+				
+				<tr>
+				<td>Почки свиные</td>
+				<td>Мясо</td>
+				<td>13</td>
+				<td>3.1</td>
+				<td>0.0</td>
+				<td>80</td>
+				</tr>
+				<tr>
+				<td>Печень свиная</td>
+				<td>Мясо</td>
+				<td>18.8</td>
+				<td>3.6</td>
+				<td>0.0</td>
+				<td>108</td>
+				</tr>
+				<tr>
+				<td>Сердце свиное</td>
+				<td>Мясо</td>
+				<td>15.1</td>
+				<td>3.2</td>
+				<td>0.0</td>
+				<td>89</td>
+				</tr>
+				<tr>
+				<td>Язык свиной</td>
+				<td>Мясо</td>
+				<td>14.2</td>
+				<td>16.8</td>
+				<td>0.0</td>
+				<td>208</td>
+				</tr>
+				<tr>
+				<td>Гуси</td>
+				<td>Мясо</td>
+				<td>16.1</td>
+				<td>33.3</td>
+				<td>0.0</td>
+				<td>364</td>
+				</tr>
+				<tr>
+				<td>Индейка</td>
+				<td>Мясо</td>
+				<td>21.6</td>
+				<td>12</td>
+				<td>0.8</td>
+				<td>197</td>
+				</tr>
+				<tr>
+				<td>Куры</td>
+				<td>Мясо</td>
+				<td>20.8</td>
+				<td>8.8</td>
+				<td>0.6</td>
+				<td>165</td>
+				</tr>
+				<tr>
+				<td>Цыплята</td>
+				<td>Мясо</td>
+				<td>18.7</td>
+				<td>7.8</td>
+				<td>0.4</td>
+				<td>156</td>
+				</tr>
+				<tr>
+				<td>Утки</td>
+				<td>Мясо</td>
+				<td>16.5</td>
+				<td>61.2</td>
+				<td>0.0</td>
+				<td>346</td>
+				</tr>
+			</table>
+		</p>
+		
+	</body>
+</html>
